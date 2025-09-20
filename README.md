@@ -1,2 +1,2 @@
-# Tienda-de-cervezas
-Modern e-commerce beer store built with Next.js and Tailwind CSS featuring a responsive UI, dynamic product catalog and integrated shopping cart.
+# Verde-Inversiones
+Modern real estate site built with vanilla css & js. Featuring a responsive UI & properties catalog.
