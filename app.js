@@ -66,8 +66,8 @@ class HeroCarousel {
         document.addEventListener('DOMContentLoaded', () => {
             const carousel = new HeroCarousel();
             
-            // Si quieres agregar funcionalidad a los indicadores más adelante
-            // (aunque dijiste que el usuario no debe poder seleccionar)
+            // Para agregar funcionalidad a los indicadores más adelante
+            
             /*
             document.querySelectorAll('.indicator').forEach((indicator, index) => {
                 indicator.addEventListener('click', () => {
@@ -85,3 +85,12 @@ class HeroCarousel {
                 carousel.startCarousel();
             }
         });
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('navMenu');
+
+            hamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                hamburger.classList.toggle('open');
+            });
+            });
