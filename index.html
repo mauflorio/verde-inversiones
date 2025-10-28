@@ -3,6 +3,11 @@
    <head>
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="description" content="Inversiones inmobiliarias en España, Brasil y Uruguay. Más de 15 años de experiencia.">
+       <meta name="keywords" content="inmobiliaria, inversiones, propiedades, campos, fincas, España, Brasil, Uruguay">
+       <meta property="og:title" content="Verde Inversiones">
+       <meta property="og:description" content="Tu socio en inversiones inmobiliarias">
+       <meta property="og:image" content="URL_DE_IMAGEN">
        <title>Verde Inversiones</title>
        <link rel="stylesheet" href="styles.css">
        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -34,17 +39,17 @@
         </div>
     </div>
     <!-- Navbar -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Navegación principal">
         <div class="nav-container">
             <a href="#" class="logo">Verde Inversiones</a>
             <ul class="nav-menu" id="navMenu">
-                <li><a href="#comprar" class="nav-link">Comprar</a></li>
+                <li><a href="comprar.html" class="nav-link">Comprar</a></li>
                 <li><a href="#vender" class="nav-link">Vender</a></li>
                 <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
                 <li><a href="#servicios" class="nav-link">Servicios</a></li>
                 <li><a href="#contacto" class="nav-link">Contacto</a></li>
             </ul>
-            <div class="hamburger" id="hamburger">
+            <div class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
@@ -407,7 +412,10 @@
     <section id="contacto" class="contact-section">
         <div class="container">
             <h2 class="section-title">Contáctanos</h2>
-            <form class="contact-form">
+            <!-- form HTML: -->
+            <form class="contact-form" 
+                action="https://formsubmit.co/tu-email@verdeinversiones.es" 
+                method="POST">
                 <div class="form-group">
                     <label for="name">Nombre Completo *</label>
                     <input type="text" id="name" name="name" required>
@@ -449,7 +457,7 @@
             <div class="footer-section">
                 <h3>Enlaces Rápidos</h3>
                 <ul>
-                    <li><a href="#comprar">Comprar</a></li>
+                    <li><a href="comprar.html">Comprar</a></li>
                     <li><a href="#vender">Vender</a></li>
                     <li><a href="#nosotros">Nosotros</a></li>
                     <li><a href="#servicios">Servicios</a></li>
